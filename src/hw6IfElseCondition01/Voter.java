@@ -3,7 +3,7 @@ package hw6IfElseCondition01;
 public class Voter {
 
 	public static void main(String[] args) {
-		int age = 30;
+		int age = 100;
 
 		if (age == 18) {
 			System.out.println("I am a voter");
