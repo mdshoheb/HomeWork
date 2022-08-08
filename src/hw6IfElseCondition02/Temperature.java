@@ -24,6 +24,7 @@ public class Temperature {
 		} else {
 			System.out.println("Ice on my head please");
 		}
+		scanner.close();
 
 	}
 
