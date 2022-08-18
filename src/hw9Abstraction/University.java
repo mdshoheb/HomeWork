@@ -23,5 +23,4 @@ public interface University extends College, Hospital {
 		System.out.println("This static method library from University Interface");
 	}
 
-	
 }
