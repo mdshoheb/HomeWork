@@ -2,8 +2,8 @@ package hw9Abstraction;
 
 /*
   1.one keyword "extends" is used to inherit an Abstract Class.
-  2.An abstract class can inherit other abstract class or regular class by extends key word
-  3.An abstract class can't inherit an Interface by extends key word
+  2.An abstract class can inherit other abstract class or regular class by extends keyword
+  3.An abstract class can't inherit an Interface by extends keyword
   4.Only one inheritance is possible in an Abstract class
  */
 
