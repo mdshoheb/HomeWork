@@ -8,6 +8,10 @@ package hw9Abstraction;
  */
 
 public abstract class MedicalSchool extends NursingSchool {
+	public MedicalSchool() {
+
+	}
+
 	public abstract void anatomyLab();
 
 	public void biochemistryLab() {
@@ -15,9 +19,4 @@ public abstract class MedicalSchool extends NursingSchool {
 
 	}
 
-	public MedicalSchool() {
-
-	}
-
-	
 }

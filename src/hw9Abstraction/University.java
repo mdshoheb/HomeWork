@@ -7,14 +7,14 @@ package hw9Abstraction;
  */
 
 public interface University extends College, Hospital {
+//	public University() {Interfaces cannot have constructors
+//	}
+	
 	public void classSize();
 	public void playGround();
 	public void teacher();
 
-//	public University() {//Interfaces cannot have constructors
-//	}
-
-	public default void gymnasium() {
+    public default void gymnasium() {
 		System.out.println("This default method gymnasium from University Interface");
 
 	}

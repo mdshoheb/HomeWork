@@ -8,7 +8,11 @@ package hw10Abstraction;
   5.More than one inheritance is possible to inherit an Interface with "implements" keyword
  */
 
-public abstract class MedicalSchool extends NursingSchool implements LawSchool{
+public abstract class MedicalSchool extends NursingSchool implements LawSchool {
+	public MedicalSchool() {
+
+	}
+
 	public abstract void anatomyLab();
 
 	public void biochemistryLab() {
@@ -16,9 +20,4 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool{
 
 	}
 
-	public MedicalSchool() {
-
-	}
-
-	
 }
