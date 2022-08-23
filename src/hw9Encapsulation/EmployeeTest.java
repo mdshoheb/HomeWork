@@ -8,7 +8,6 @@ public class EmployeeTest {
 		employee.setAge(36);
 		employee.setSex('M');
 		employee.setUsCitizen(false);
-
 		System.out.println("Employee Name: " + employee.getName() + ",\nEmployee Age: " + employee.getAge()
 				+ ",\nEmployee Gender: " + employee.getSex() + ",\nEmployee Citizenship: " + employee.isUsCitizen());
 

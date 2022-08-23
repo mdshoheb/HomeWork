@@ -9,12 +9,10 @@ package hw9Abstraction;
 
 public class ColumbiaUniversity extends MedicalSchool {
 	public ColumbiaUniversity() {
-
 	}
 
 //	abstract method cannot be declared inside the Class.
-//	public abstract void chemistry(); 
-
+//	public abstract void chemistry();
 	public void biology() {
 		System.out.println("This non abstract method from ColumbiaUniversity Class ");
 	}
