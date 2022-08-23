@@ -7,7 +7,9 @@ package hw9Abstraction;
  */
 
 public interface University extends College, Hospital {
-//	public University() {Interfaces cannot have constructors
+//	Interfaces cannot have constructors,
+//	because Interface can contain only abstract method and non-abstract method(default,static)
+//	public University() {
 //	}
 
 	public void classSize();

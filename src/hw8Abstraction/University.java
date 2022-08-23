@@ -1,7 +1,9 @@
 package hw8Abstraction;
 
 public interface University {
-//	public University() {Interfaces cannot have constructors
+//	Interfaces cannot have constructors,
+//	because Interface can contain only abstract method and non-abstract method(default,static)
+//	public University() { 
 //	}
 
 	public void classSize();
