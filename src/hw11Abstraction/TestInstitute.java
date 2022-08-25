@@ -35,7 +35,7 @@ public class TestInstitute {
 //		columbiaUniversity.studyRoom();---static method of Interface can't be call by object of a regular class
 		columbiaUniversity.morgue();
 //		columbiaUniversity.pharmacy();------static method of Interface can't be call by object of a regular class
-		
+
 		System.out.println("\n--------------------- Interface University ------------------------\n");
 		University university = new ColumbiaUniversity();
 		university.classSize();
@@ -53,14 +53,9 @@ public class TestInstitute {
 		university.cafeteria();
 		university.morgue();
 		Hospital.pharmacy();
-		
+
 		System.out.println("\n--------------------- Abstract class ElectricCar ------------------------\n");
-		
-		
-		
-		
-		
-		
+
 	}
 
 }
