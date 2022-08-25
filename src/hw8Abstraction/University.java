@@ -11,3 +11,5 @@ public interface University {
 	public void teacher();
 
 }
+	
+
