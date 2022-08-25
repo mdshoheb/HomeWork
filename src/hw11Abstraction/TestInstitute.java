@@ -38,6 +38,8 @@ public class TestInstitute {
 		university.classSize();
 		university.playGround();
 		university.teacher();
+//		columbiaUniversity.library(); ----static method of Interface can't be call by object of a regular class
+		columbiaUniversity.dorm();
 		university.gymnasium();
 		University.library();// no need of an object, Interface/class can directly call static methods,
 		university.commonRoom();
@@ -50,11 +52,14 @@ public class TestInstitute {
 		university.cafeteria();
 		university.morgue();
 		Hospital.pharmacy();
-		
 		System.out.println("\n--------------------- Abstract class ElectricCar ------------------------\n");
 		
 		
 	}
 	
 }
+
+		
+		
+		
 
