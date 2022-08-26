@@ -21,15 +21,17 @@ public class TestInstitute {
 		columbiaUniversity.playGround();
 		columbiaUniversity.teacher();
 		columbiaUniversity.biochemistryLab();
-		ColumbiaUniversity.microbiology();//// Static method called by ColumbiaUniversity class
+		ColumbiaUniversity.microbiology();// Static method from An Abstract class called by ColumbiaUniversity class
 		columbiaUniversity.caring();
 		columbiaUniversity.maths();
 		columbiaUniversity.mechanicalLab();
+		columbiaUniversity.aeronauticalInfo();
 		columbiaUniversity.computerLab();
 		columbiaUniversity.anthropology();
-		columbiaUniversity.aeronauticalInfo();
 		columbiaUniversity.lawInfo();
 		columbiaUniversity.gymnasium();
+//		ColumbiaUniversity.library();------static method of Interface can't be call by object of a regular class
+		columbiaUniversity.dorm();
 //		columbiaUniversity.studyRoom();---static method of Interface can't be call by object of a regular class
 		columbiaUniversity.morgue();
 //		columbiaUniversity.pharmacy();------static method of Interface can't be call by object of a regular class
@@ -38,28 +40,37 @@ public class TestInstitute {
 		university.classSize();
 		university.playGround();
 		university.teacher();
-//		columbiaUniversity.library(); ----static method of Interface can't be call by object of a regular class
-		columbiaUniversity.dorm();
 		university.gymnasium();
 		University.library();// no need of an object, Interface/class can directly call static methods,
 		university.commonRoom();
 		university.laboratory();
 		university.languageClub();
 		university.dorm();
-		College.studyRoom();
+//		University.studyRoom(); Can't call static method from another Interface
 		university.emergencyRoom();
 		university.surgeryRoom();
 		university.cafeteria();
 		university.morgue();
-		Hospital.pharmacy();
-		System.out.println("\n--------------------- Abstract class ElectricCar ------------------------\n");
-		
+//		University.pharmacy(); Can't call static method from another Interface
+		System.out.println("\n--------------------- Abstract class MedicalSchool ------------------------\n");
+		MedicalSchool medicalSchool = new ColumbiaUniversity();
+		medicalSchool.anatomyLab();
+		medicalSchool.biochemistryLab();
+		MedicalSchool.microbiology();
+		medicalSchool.hygiene();
+		medicalSchool.caring();
+		medicalSchool.maths();
+		medicalSchool.mechanicalLab();
+		medicalSchool.aeronauticalInfo();
+		medicalSchool.computerLab();
+		medicalSchool.anthropology();
+		medicalSchool.lawInfo();
 		
 	}
 	
 }
-
-		
-		
 		
 
+
+
+		
