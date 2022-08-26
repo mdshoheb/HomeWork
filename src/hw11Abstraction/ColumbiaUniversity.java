@@ -29,37 +29,30 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	public void anatomyLab() {
 		System.out.println("anatomy method from MedicalSchool abstract class");
 	}
-
 	@Override
 	public void hygiene() {
 		System.out.println("hygiene method from NursingSchool abstract class");
 	}
-
 	@Override
 	public void lawInfo() {
 		System.out.println("lawSchool method from LawSchool Inerface");
-    }
-
+	}
 	@Override
 	public void commonRoom() {
 		System.out.println("commonRoom method from College Interface");
 	}
-
 	@Override
 	public void laboratory() {
 		System.out.println("laboratory method from College Interface");
 	}
-
 	@Override
 	public void languageClub() {
 		System.out.println("languageClub method from College Interface");
 	}
-
 	@Override
 	public void emergencyRoom() {
 		System.out.println("emergencyRoom method from Hospital Interface");
 	}
-
 	@Override
 	public void surgeryRoom() {
 		System.out.println("surgeryRoom method from Hospital Interface");
@@ -84,7 +77,14 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 	public void teacher() {
 		System.out.println("teacher method from University Interface");
 	}
+
 }
+
+
+
+
+
+
 		
 
 
