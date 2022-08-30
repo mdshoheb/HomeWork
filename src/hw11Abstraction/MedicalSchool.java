@@ -13,7 +13,6 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	}
 
 	public abstract void anatomyLab();
-
 	public void biochemistryLab() {
 		System.out.println("This non-abstract method from MedicalSchool Class");
 	}
@@ -25,4 +24,5 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 //    }
 	
 }
+
 
