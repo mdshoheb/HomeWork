@@ -13,17 +13,18 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	}
 
 	public abstract void anatomyLab();
-
 	public void biochemistryLab() {
 		System.out.println("This non-abstract method from MedicalSchool Class");
 	}
 	public static void microbiology() {
 		System.out.println("This static type method from Medical School Abstract class");
 	}
-//  Default methods are allowed only in interfaces.  
+//	Default methods are allowed only in interfaces.
 //	public default void pathology() {
 //	}
 	
 }
+	
+
 
 
