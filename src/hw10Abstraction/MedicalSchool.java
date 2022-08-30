@@ -11,11 +11,11 @@ package hw10Abstraction;
 public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public MedicalSchool() {
 	}
-
 	public abstract void anatomyLab();
-
 	public void biochemistryLab() {
 		System.out.println("This non-abstract method from MedicalSchool Class");
 	}
-
+	
 }
+
+
